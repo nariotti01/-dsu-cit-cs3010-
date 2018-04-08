@@ -70,8 +70,7 @@ public class PhotoGalleryFragment extends Fragment {
         public PhotoHolder(View itemView) {
             super(itemView);
 
-            mItemImageView = (ImageView) itemView;
-            //mItemImageView = (ImageView) findViewById(R.id.item_image_view);
+            mItemImageView =(ImageView) itemView;
             mItemImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         }
 
